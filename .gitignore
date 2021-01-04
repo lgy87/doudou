@@ -20,3 +20,5 @@ pom.xml.asc
 .hg/
 .cpcache/
 public/assets/js
+.lsp
+.clj-kondo/

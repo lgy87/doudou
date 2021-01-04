@@ -1,11 +1,9 @@
-;; shadow-cljs configuration
 {
  :deps true
  :ignore-warnings true
- 
  :builds {:app {:output-dir "public/assets/js"
                 :asset-path "/assets/js"
                 :target :browser
                 :devtools {:http-root "public"
-                           :http-port 8080}
-                :modules {:app {:init-fn doudou.app/init}}}}}
+                           :http-port 9999}
+                :modules {:app {:init-fn doudou.entry/render}}}}}

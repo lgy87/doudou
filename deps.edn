@@ -1,9 +1,13 @@
 {
-  :paths ["src/main"]
+  :paths ["src"]
   :deps {
     org.clojure/clojure {:mvn/version "1.10.1"}
     thheller/shadow-cljs {:mvn/version "2.11.10"}
     reagent/reagent {:mvn/version "1.0.0"}
     re-frame/re-frame {:mvn/version "1.1.2"}
+  }
+  :mvn/repos {
+    "central" {:url "https://maven.aliyun.com/nexus/content/groups/public/"}
+    "clojars" {:url "https://mirrors.ustc.edu.cn/clojars/"}
   }
 }
